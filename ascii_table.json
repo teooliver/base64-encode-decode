@@ -1,37 +1,202 @@
 [
-  { "decimal": 0, "binary": "00000000", "hex": "0x00", "name": "NUL" },
-  { "decimal": 1, "binary": "00000001", "hex": "0x01", "name": "SOH" },
-  { "decimal": 2, "binary": "00000010", "hex": "0x02", "name": "STX" },
-  { "decimal": 3, "binary": "00000011", "hex": "0x03", "name": "ETX" },
-  { "decimal": 4, "binary": "00000100", "hex": "0x04", "name": "EOT" },
-  { "decimal": 5, "binary": "00000101", "hex": "0x05", "name": "ENQ" },
-  { "decimal": 6, "binary": "00000110", "hex": "0x06", "name": "ACK" },
-  { "decimal": 7, "binary": "00000111", "hex": "0x07", "name": "BEL" },
-  { "decimal": 8, "binary": "00001000", "hex": "0x08", "name": "BS" },
-  { "decimal": 9, "binary": "00001001", "hex": "0x09", "name": "TAB" },
-  { "decimal": 10, "binary": "00001010", "hex": "0x0A", "name": "LF" },
-  { "decimal": 11, "binary": "00001011", "hex": "0x0B", "name": "VT" },
-  { "decimal": 12, "binary": "00001100", "hex": "0x0C", "name": "FF" },
-  { "decimal": 13, "binary": "00001101", "hex": "0x0D", "name": "CR" },
-  { "decimal": 14, "binary": "00001110", "hex": "0x0E", "name": "SO" },
-  { "decimal": 15, "binary": "00001111", "hex": "0x0F", "name": "SI" },
-  { "decimal": 16, "binary": "00010000", "hex": "0x10", "name": "DLE" },
-  { "decimal": 17, "binary": "00010001", "hex": "0x11", "name": "DC1" },
-  { "decimal": 18, "binary": "00010010", "hex": "0x12", "name": "DC2" },
-  { "decimal": 19, "binary": "00010011", "hex": "0x13", "name": "DC3" },
-  { "decimal": 20, "binary": "00010100", "hex": "0x14", "name": "DC4" },
-  { "decimal": 21, "binary": "00010101", "hex": "0x15", "name": "NAK" },
-  { "decimal": 22, "binary": "00010110", "hex": "0x16", "name": "SYN" },
-  { "decimal": 23, "binary": "00010111", "hex": "0x17", "name": "ETB" },
-  { "decimal": 24, "binary": "00011000", "hex": "0x18", "name": "CAN" },
-  { "decimal": 25, "binary": "00011001", "hex": "0x19", "name": "EM" },
-  { "decimal": 26, "binary": "00011010", "hex": "0x1A", "name": "SUB" },
-  { "decimal": 27, "binary": "00011011", "hex": "0x1B", "name": "ESC" },
-  { "decimal": 28, "binary": "00011100", "hex": "0x1C", "name": "FS" },
-  { "decimal": 29, "binary": "00011101", "hex": "0x1D", "name": "GS" },
-  { "decimal": 30, "binary": "00011110", "hex": "0x1E", "name": "RS" },
-  { "decimal": 31, "binary": "00011111", "hex": "0x1F", "name": "US" },
-  { "decimal": 32, "binary": "00100000", "hex": "0x20", "name": "Space" },
+  {
+    "decimal": 0,
+    "binary": "00000000",
+    "hex": "0x00",
+    "name": "NUL"
+  },
+  {
+    "decimal": 1,
+    "binary": "00000001",
+    "hex": "0x01",
+    "name": "SOH"
+  },
+  {
+    "decimal": 2,
+    "binary": "00000010",
+    "hex": "0x02",
+    "name": "STX"
+  },
+  {
+    "decimal": 3,
+    "binary": "00000011",
+    "hex": "0x03",
+    "name": "ETX"
+  },
+  {
+    "decimal": 4,
+    "binary": "00000100",
+    "hex": "0x04",
+    "name": "EOT"
+  },
+  {
+    "decimal": 5,
+    "binary": "00000101",
+    "hex": "0x05",
+    "name": "ENQ"
+  },
+  {
+    "decimal": 6,
+    "binary": "00000110",
+    "hex": "0x06",
+    "name": "ACK"
+  },
+  {
+    "decimal": 7,
+    "binary": "00000111",
+    "hex": "0x07",
+    "name": "BEL"
+  },
+  {
+    "decimal": 8,
+    "binary": "00001000",
+    "hex": "0x08",
+    "name": "BS"
+  },
+  {
+    "decimal": 9,
+    "binary": "00001001",
+    "hex": "0x09",
+    "name": "TAB"
+  },
+  {
+    "decimal": 10,
+    "binary": "00001010",
+    "hex": "0x0A",
+    "name": "LF"
+  },
+  {
+    "decimal": 11,
+    "binary": "00001011",
+    "hex": "0x0B",
+    "name": "VT"
+  },
+  {
+    "decimal": 12,
+    "binary": "00001100",
+    "hex": "0x0C",
+    "name": "FF"
+  },
+  {
+    "decimal": 13,
+    "binary": "00001101",
+    "hex": "0x0D",
+    "name": "CR"
+  },
+  {
+    "decimal": 14,
+    "binary": "00001110",
+    "hex": "0x0E",
+    "name": "SO"
+  },
+  {
+    "decimal": 15,
+    "binary": "00001111",
+    "hex": "0x0F",
+    "name": "SI"
+  },
+  {
+    "decimal": 16,
+    "binary": "00010000",
+    "hex": "0x10",
+    "name": "DLE"
+  },
+  {
+    "decimal": 17,
+    "binary": "00010001",
+    "hex": "0x11",
+    "name": "DC1"
+  },
+  {
+    "decimal": 18,
+    "binary": "00010010",
+    "hex": "0x12",
+    "name": "DC2"
+  },
+  {
+    "decimal": 19,
+    "binary": "00010011",
+    "hex": "0x13",
+    "name": "DC3"
+  },
+  {
+    "decimal": 20,
+    "binary": "00010100",
+    "hex": "0x14",
+    "name": "DC4"
+  },
+  {
+    "decimal": 21,
+    "binary": "00010101",
+    "hex": "0x15",
+    "name": "NAK"
+  },
+  {
+    "decimal": 22,
+    "binary": "00010110",
+    "hex": "0x16",
+    "name": "SYN"
+  },
+  {
+    "decimal": 23,
+    "binary": "00010111",
+    "hex": "0x17",
+    "name": "ETB"
+  },
+  {
+    "decimal": 24,
+    "binary": "00011000",
+    "hex": "0x18",
+    "name": "CAN"
+  },
+  {
+    "decimal": 25,
+    "binary": "00011001",
+    "hex": "0x19",
+    "name": "EM"
+  },
+  {
+    "decimal": 26,
+    "binary": "00011010",
+    "hex": "0x1A",
+    "name": "SUB"
+  },
+  {
+    "decimal": 27,
+    "binary": "00011011",
+    "hex": "0x1B",
+    "name": "ESC"
+  },
+  {
+    "decimal": 28,
+    "binary": "00011100",
+    "hex": "0x1C",
+    "name": "FS"
+  },
+  {
+    "decimal": 29,
+    "binary": "00011101",
+    "hex": "0x1D",
+    "name": "GS"
+  },
+  {
+    "decimal": 30,
+    "binary": "00011110",
+    "hex": "0x1E",
+    "name": "RS"
+  },
+  {
+    "decimal": 31,
+    "binary": "00011111",
+    "hex": "0x1F",
+    "name": "US"
+  },
+  {
+    "decimal": 32,
+    "binary": "00100000",
+    "hex": "0x20",
+    "name": "Space"
+  },
   {
     "decimal": 33,
     "binary": "00100001",
@@ -44,10 +209,30 @@
     "hex": "0x22",
     "name": "Double Quote"
   },
-  { "decimal": 35, "binary": "00100011", "hex": "0x23", "name": "Hash" },
-  { "decimal": 36, "binary": "00100100", "hex": "0x24", "name": "Dollar Sign" },
-  { "decimal": 37, "binary": "00100101", "hex": "0x25", "name": "Percent" },
-  { "decimal": 38, "binary": "00100110", "hex": "0x26", "name": "Ampersand" },
+  {
+    "decimal": 35,
+    "binary": "00100011",
+    "hex": "0x23",
+    "name": "Hash"
+  },
+  {
+    "decimal": 36,
+    "binary": "00100100",
+    "hex": "0x24",
+    "name": "Dollar Sign"
+  },
+  {
+    "decimal": 37,
+    "binary": "00100101",
+    "hex": "0x25",
+    "name": "Percent"
+  },
+  {
+    "decimal": 38,
+    "binary": "00100110",
+    "hex": "0x26",
+    "name": "Ampersand"
+  },
   {
     "decimal": 39,
     "binary": "00100111",
@@ -66,26 +251,126 @@
     "hex": "0x29",
     "name": "Right Parenthesis"
   },
-  { "decimal": 42, "binary": "00101010", "hex": "0x2A", "name": "Asterisk" },
-  { "decimal": 43, "binary": "00101011", "hex": "0x2B", "name": "Plus" },
-  { "decimal": 44, "binary": "00101100", "hex": "0x2C", "name": "Comma" },
-  { "decimal": 45, "binary": "00101101", "hex": "0x2D", "name": "Minus" },
-  { "decimal": 46, "binary": "00101110", "hex": "0x2E", "name": "Period" },
-  { "decimal": 47, "binary": "00101111", "hex": "0x2F", "name": "Slash" },
-  { "decimal": 48, "binary": "00110000", "hex": "0x30", "name": "Zero" },
-  { "decimal": 49, "binary": "00110001", "hex": "0x31", "name": "One" },
-  { "decimal": 50, "binary": "00110010", "hex": "0x32", "name": "Two" },
-  { "decimal": 51, "binary": "00110011", "hex": "0x33", "name": "Three" },
-  { "decimal": 52, "binary": "00110100", "hex": "0x34", "name": "Four" },
-  { "decimal": 53, "binary": "00110101", "hex": "0x35", "name": "Five" },
-  { "decimal": 54, "binary": "00110110", "hex": "0x36", "name": "Six" },
-  { "decimal": 55, "binary": "00110111", "hex": "0x37", "name": "Seven" },
-  { "decimal": 56, "binary": "00111000", "hex": "0x38", "name": "Eight" },
-  { "decimal": 57, "binary": "00111001", "hex": "0x39", "name": "Nine" },
-  { "decimal": 58, "binary": "00111010", "hex": "0x3A", "name": "Colon" },
-  { "decimal": 59, "binary": "00111011", "hex": "0x3B", "name": "Semicolon" },
-  { "decimal": 60, "binary": "00111100", "hex": "0x3C", "name": "Less Than" },
-  { "decimal": 61, "binary": "00111101", "hex": "0x3D", "name": "Equal" },
+  {
+    "decimal": 42,
+    "binary": "00101010",
+    "hex": "0x2A",
+    "name": "Asterisk"
+  },
+  {
+    "decimal": 43,
+    "binary": "00101011",
+    "hex": "0x2B",
+    "name": "Plus"
+  },
+  {
+    "decimal": 44,
+    "binary": "00101100",
+    "hex": "0x2C",
+    "name": "Comma"
+  },
+  {
+    "decimal": 45,
+    "binary": "00101101",
+    "hex": "0x2D",
+    "name": "Minus"
+  },
+  {
+    "decimal": 46,
+    "binary": "00101110",
+    "hex": "0x2E",
+    "name": "Period"
+  },
+  {
+    "decimal": 47,
+    "binary": "00101111",
+    "hex": "0x2F",
+    "name": "Slash"
+  },
+  {
+    "decimal": 48,
+    "binary": "00110000",
+    "hex": "0x30",
+    "name": "Zero"
+  },
+  {
+    "decimal": 49,
+    "binary": "00110001",
+    "hex": "0x31",
+    "name": "One"
+  },
+  {
+    "decimal": 50,
+    "binary": "00110010",
+    "hex": "0x32",
+    "name": "Two"
+  },
+  {
+    "decimal": 51,
+    "binary": "00110011",
+    "hex": "0x33",
+    "name": "Three"
+  },
+  {
+    "decimal": 52,
+    "binary": "00110100",
+    "hex": "0x34",
+    "name": "Four"
+  },
+  {
+    "decimal": 53,
+    "binary": "00110101",
+    "hex": "0x35",
+    "name": "Five"
+  },
+  {
+    "decimal": 54,
+    "binary": "00110110",
+    "hex": "0x36",
+    "name": "Six"
+  },
+  {
+    "decimal": 55,
+    "binary": "00110111",
+    "hex": "0x37",
+    "name": "Seven"
+  },
+  {
+    "decimal": 56,
+    "binary": "00111000",
+    "hex": "0x38",
+    "name": "Eight"
+  },
+  {
+    "decimal": 57,
+    "binary": "00111001",
+    "hex": "0x39",
+    "name": "Nine"
+  },
+  {
+    "decimal": 58,
+    "binary": "00111010",
+    "hex": "0x3A",
+    "name": "Colon"
+  },
+  {
+    "decimal": 59,
+    "binary": "00111011",
+    "hex": "0x3B",
+    "name": "Semicolon"
+  },
+  {
+    "decimal": 60,
+    "binary": "00111100",
+    "hex": "0x3C",
+    "name": "Less Than"
+  },
+  {
+    "decimal": 61,
+    "binary": "00111101",
+    "hex": "0x3D",
+    "name": "Equal"
+  },
   {
     "decimal": 62,
     "binary": "00111110",
@@ -98,80 +383,360 @@
     "hex": "0x3F",
     "name": "Question Mark"
   },
-  { "decimal": 64, "binary": "01000000", "hex": "0x40", "name": "At" },
-  { "decimal": 65, "binary": "01000001", "hex": "0x41", "name": "A" },
-  { "decimal": 66, "binary": "01000010", "hex": "0x42", "name": "B" },
-  { "decimal": 67, "binary": "01000011", "hex": "0x43", "name": "C" },
-  { "decimal": 68, "binary": "01000100", "hex": "0x44", "name": "D" },
-  { "decimal": 69, "binary": "01000101", "hex": "0x45", "name": "E" },
-  { "decimal": 70, "binary": "01000110", "hex": "0x46", "name": "F" },
-  { "decimal": 71, "binary": "01000111", "hex": "0x47", "name": "G" },
-  { "decimal": 72, "binary": "01001000", "hex": "0x48", "name": "H" },
-  { "decimal": 73, "binary": "01001001", "hex": "0x49", "name": "I" },
-  { "decimal": 74, "binary": "01001010", "hex": "0x4A", "name": "J" },
-  { "decimal": 75, "binary": "01001011", "hex": "0x4B", "name": "K" },
-  { "decimal": 76, "binary": "01001100", "hex": "0x4C", "name": "L" },
-  { "decimal": 77, "binary": "01001101", "hex": "0x4D", "name": "M" },
-  { "decimal": 78, "binary": "01001110", "hex": "0x4E", "name": "N" },
-  { "decimal": 79, "binary": "01001111", "hex": "0x4F", "name": "O" },
-  { "decimal": 80, "binary": "01010000", "hex": "0x50", "name": "P" },
-  { "decimal": 81, "binary": "01010001", "hex": "0x51", "name": "Q" },
-  { "decimal": 82, "binary": "01010010", "hex": "0x52", "name": "R" },
-  { "decimal": 83, "binary": "01010011", "hex": "0x53", "name": "S" },
-  { "decimal": 84, "binary": "01010100", "hex": "0x54", "name": "T" },
-  { "decimal": 85, "binary": "01010101", "hex": "0x55", "name": "U" },
-  { "decimal": 86, "binary": "01010110", "hex": "0x56", "name": "V" },
-  { "decimal": 87, "binary": "01010111", "hex": "0x57", "name": "W" },
-  { "decimal": 88, "binary": "01011000", "hex": "0x58", "name": "X" },
-  { "decimal": 89, "binary": "01011001", "hex": "0x59", "name": "Y" },
-  { "decimal": 90, "binary": "01011010", "hex": "0x5A", "name": "Z" },
+  {
+    "decimal": 64,
+    "binary": "01000000",
+    "hex": "0x40",
+    "name": "At"
+  },
+  {
+    "decimal": 65,
+    "binary": "01000001",
+    "hex": "0x41",
+    "name": "A"
+  },
+  {
+    "decimal": 66,
+    "binary": "01000010",
+    "hex": "0x42",
+    "name": "B"
+  },
+  {
+    "decimal": 67,
+    "binary": "01000011",
+    "hex": "0x43",
+    "name": "C"
+  },
+  {
+    "decimal": 68,
+    "binary": "01000100",
+    "hex": "0x44",
+    "name": "D"
+  },
+  {
+    "decimal": 69,
+    "binary": "01000101",
+    "hex": "0x45",
+    "name": "E"
+  },
+  {
+    "decimal": 70,
+    "binary": "01000110",
+    "hex": "0x46",
+    "name": "F"
+  },
+  {
+    "decimal": 71,
+    "binary": "01000111",
+    "hex": "0x47",
+    "name": "G"
+  },
+  {
+    "decimal": 72,
+    "binary": "01001000",
+    "hex": "0x48",
+    "name": "H"
+  },
+  {
+    "decimal": 73,
+    "binary": "01001001",
+    "hex": "0x49",
+    "name": "I"
+  },
+  {
+    "decimal": 74,
+    "binary": "01001010",
+    "hex": "0x4A",
+    "name": "J"
+  },
+  {
+    "decimal": 75,
+    "binary": "01001011",
+    "hex": "0x4B",
+    "name": "K"
+  },
+  {
+    "decimal": 76,
+    "binary": "01001100",
+    "hex": "0x4C",
+    "name": "L"
+  },
+  {
+    "decimal": 77,
+    "binary": "01001101",
+    "hex": "0x4D",
+    "name": "M"
+  },
+  {
+    "decimal": 78,
+    "binary": "01001110",
+    "hex": "0x4E",
+    "name": "N"
+  },
+  {
+    "decimal": 79,
+    "binary": "01001111",
+    "hex": "0x4F",
+    "name": "O"
+  },
+  {
+    "decimal": 80,
+    "binary": "01010000",
+    "hex": "0x50",
+    "name": "P"
+  },
+  {
+    "decimal": 81,
+    "binary": "01010001",
+    "hex": "0x51",
+    "name": "Q"
+  },
+  {
+    "decimal": 82,
+    "binary": "01010010",
+    "hex": "0x52",
+    "name": "R"
+  },
+  {
+    "decimal": 83,
+    "binary": "01010011",
+    "hex": "0x53",
+    "name": "S"
+  },
+  {
+    "decimal": 84,
+    "binary": "01010100",
+    "hex": "0x54",
+    "name": "T"
+  },
+  {
+    "decimal": 85,
+    "binary": "01010101",
+    "hex": "0x55",
+    "name": "U"
+  },
+  {
+    "decimal": 86,
+    "binary": "01010110",
+    "hex": "0x56",
+    "name": "V"
+  },
+  {
+    "decimal": 87,
+    "binary": "01010111",
+    "hex": "0x57",
+    "name": "W"
+  },
+  {
+    "decimal": 88,
+    "binary": "01011000",
+    "hex": "0x58",
+    "name": "X"
+  },
+  {
+    "decimal": 89,
+    "binary": "01011001",
+    "hex": "0x59",
+    "name": "Y"
+  },
+  {
+    "decimal": 90,
+    "binary": "01011010",
+    "hex": "0x5A",
+    "name": "Z"
+  },
   {
     "decimal": 91,
     "binary": "01011011",
     "hex": "0x5B",
     "name": "Left Square Bracket"
   },
-  { "decimal": 92, "binary": "01011100", "hex": "0x5C", "name": "Backslash" },
+  {
+    "decimal": 92,
+    "binary": "01011100",
+    "hex": "0x5C",
+    "name": "Backslash"
+  },
   {
     "decimal": 93,
     "binary": "01011101",
     "hex": "0x5D",
     "name": "Right Square Bracket"
   },
-  { "decimal": 94, "binary": "01011110", "hex": "0x5E", "name": "Caret" },
-  { "decimal": 95, "binary": "01011111", "hex": "0x5F", "name": "Underscore" },
+  {
+    "decimal": 94,
+    "binary": "01011110",
+    "hex": "0x5E",
+    "name": "Caret"
+  },
+  {
+    "decimal": 95,
+    "binary": "01011111",
+    "hex": "0x5F",
+    "name": "Underscore"
+  },
   {
     "decimal": 96,
     "binary": "01100000",
     "hex": "0x60",
     "name": "Grave Accent"
   },
-  { "decimal": 97, "binary": "01100001", "hex": "0x61", "name": "a" },
-  { "decimal": 98, "binary": "01100010", "hex": "0x62", "name": "b" },
-  { "decimal": 99, "binary": "01100011", "hex": "0x63", "name": "c" },
-  { "decimal": 100, "binary": "01100100", "hex": "0x64", "name": "d" },
-  { "decimal": 101, "binary": "01100101", "hex": "0x65", "name": "e" },
-  { "decimal": 102, "binary": "01100110", "hex": "0x66", "name": "f" },
-  { "decimal": 103, "binary": "01100111", "hex": "0x67", "name": "g" },
-  { "decimal": 104, "binary": "01101000", "hex": "0x68", "name": "h" },
-  { "decimal": 105, "binary": "01101001", "hex": "0x69", "name": "i" },
-  { "decimal": 106, "binary": "01101010", "hex": "0x6A", "name": "j" },
-  { "decimal": 107, "binary": "01101011", "hex": "0x6B", "name": "k" },
-  { "decimal": 108, "binary": "01101100", "hex": "0x6C", "name": "l" },
-  { "decimal": 109, "binary": "01101101", "hex": "0x6D", "name": "m" },
-  { "decimal": 110, "binary": "01101110", "hex": "0x6E", "name": "n" },
-  { "decimal": 111, "binary": "01101111", "hex": "0x6F", "name": "o" },
-  { "decimal": 112, "binary": "01110000", "hex": "0x70", "name": "p" },
-  { "decimal": 113, "binary": "01110001", "hex": "0x71", "name": "q" },
-  { "decimal": 114, "binary": "01110010", "hex": "0x72", "name": "r" },
-  { "decimal": 115, "binary": "01110011", "hex": "0x73", "name": "s" },
-  { "decimal": 116, "binary": "01110100", "hex": "0x74", "name": "t" },
-  { "decimal": 117, "binary": "01110101", "hex": "0x75", "name": "u" },
-  { "decimal": 118, "binary": "01110110", "hex": "0x76", "name": "v" },
-  { "decimal": 119, "binary": "01110111", "hex": "0x77", "name": "w" },
-  { "decimal": 120, "binary": "01111000", "hex": "0x78", "name": "x" },
-  { "decimal": 121, "binary": "01111001", "hex": "0x79", "name": "y" },
-  { "decimal": 122, "binary": "01111010", "hex": "0x7A", "name": "z" },
+  {
+    "decimal": 97,
+    "binary": "01100001",
+    "hex": "0x61",
+    "name": "a"
+  },
+  {
+    "decimal": 98,
+    "binary": "01100010",
+    "hex": "0x62",
+    "name": "b"
+  },
+  {
+    "decimal": 99,
+    "binary": "01100011",
+    "hex": "0x63",
+    "name": "c"
+  },
+  {
+    "decimal": 100,
+    "binary": "01100100",
+    "hex": "0x64",
+    "name": "d"
+  },
+  {
+    "decimal": 101,
+    "binary": "01100101",
+    "hex": "0x65",
+    "name": "e"
+  },
+  {
+    "decimal": 102,
+    "binary": "01100110",
+    "hex": "0x66",
+    "name": "f"
+  },
+  {
+    "decimal": 103,
+    "binary": "01100111",
+    "hex": "0x67",
+    "name": "g"
+  },
+  {
+    "decimal": 104,
+    "binary": "01101000",
+    "hex": "0x68",
+    "name": "h"
+  },
+  {
+    "decimal": 105,
+    "binary": "01101001",
+    "hex": "0x69",
+    "name": "i"
+  },
+  {
+    "decimal": 106,
+    "binary": "01101010",
+    "hex": "0x6A",
+    "name": "j"
+  },
+  {
+    "decimal": 107,
+    "binary": "01101011",
+    "hex": "0x6B",
+    "name": "k"
+  },
+  {
+    "decimal": 108,
+    "binary": "01101100",
+    "hex": "0x6C",
+    "name": "l"
+  },
+  {
+    "decimal": 109,
+    "binary": "01101101",
+    "hex": "0x6D",
+    "name": "m"
+  },
+  {
+    "decimal": 110,
+    "binary": "01101110",
+    "hex": "0x6E",
+    "name": "n"
+  },
+  {
+    "decimal": 111,
+    "binary": "01101111",
+    "hex": "0x6F",
+    "name": "o"
+  },
+  {
+    "decimal": 112,
+    "binary": "01110000",
+    "hex": "0x70",
+    "name": "p"
+  },
+  {
+    "decimal": 113,
+    "binary": "01110001",
+    "hex": "0x71",
+    "name": "q"
+  },
+  {
+    "decimal": 114,
+    "binary": "01110010",
+    "hex": "0x72",
+    "name": "r"
+  },
+  {
+    "decimal": 115,
+    "binary": "01110011",
+    "hex": "0x73",
+    "name": "s"
+  },
+  {
+    "decimal": 116,
+    "binary": "01110100",
+    "hex": "0x74",
+    "name": "t"
+  },
+  {
+    "decimal": 117,
+    "binary": "01110101",
+    "hex": "0x75",
+    "name": "u"
+  },
+  {
+    "decimal": 118,
+    "binary": "01110110",
+    "hex": "0x76",
+    "name": "v"
+  },
+  {
+    "decimal": 119,
+    "binary": "01110111",
+    "hex": "0x77",
+    "name": "w"
+  },
+  {
+    "decimal": 120,
+    "binary": "01111000",
+    "hex": "0x78",
+    "name": "x"
+  },
+  {
+    "decimal": 121,
+    "binary": "01111001",
+    "hex": "0x79",
+    "name": "y"
+  },
+  {
+    "decimal": 122,
+    "binary": "01111010",
+    "hex": "0x7A",
+    "name": "z"
+  },
   {
     "decimal": 123,
     "binary": "01111011",
@@ -190,134 +755,784 @@
     "hex": "0x7D",
     "name": "Right Curly Bracket"
   },
-  { "decimal": 126, "binary": "01111110", "hex": "0x7E", "name": "Tilde" },
-  { "decimal": 127, "binary": "01111111", "hex": "0x7F", "name": "DEL" },
-  { "decimal": 128, "binary": "10000000", "hex": "0x80", "name": "Ç" },
-  { "decimal": 129, "binary": "10000001", "hex": "0x81", "name": "ü" },
-  { "decimal": 130, "binary": "10000010", "hex": "0x82", "name": "é" },
-  { "decimal": 131, "binary": "10000011", "hex": "0x83", "name": "â" },
-  { "decimal": 132, "binary": "10000100", "hex": "0x84", "name": "ä" },
-  { "decimal": 133, "binary": "10000101", "hex": "0x85", "name": "à" },
-  { "decimal": 134, "binary": "10000110", "hex": "0x86", "name": "å" },
-  { "decimal": 135, "binary": "10000111", "hex": "0x87", "name": "ç" },
-  { "decimal": 136, "binary": "10001000", "hex": "0x88", "name": "ê" },
-  { "decimal": 137, "binary": "10001001", "hex": "0x89", "name": "ë" },
-  { "decimal": 138, "binary": "10001010", "hex": "0x8A", "name": "è" },
-  { "decimal": 139, "binary": "10001011", "hex": "0x8B", "name": "ï" },
-  { "decimal": 140, "binary": "10001100", "hex": "0x8C", "name": "î" },
-  { "decimal": 141, "binary": "10001101", "hex": "0x8D", "name": "ì" },
-  { "decimal": 142, "binary": "10001110", "hex": "0x8E", "name": "Ä" },
-  { "decimal": 143, "binary": "10001111", "hex": "0x8F", "name": "Å" },
-  { "decimal": 144, "binary": "10010000", "hex": "0x90", "name": "É" },
-  { "decimal": 145, "binary": "10010001", "hex": "0x91", "name": "æ" },
-  { "decimal": 146, "binary": "10010010", "hex": "0x92", "name": "Æ" },
-  { "decimal": 147, "binary": "10010011", "hex": "0x93", "name": "ô" },
-  { "decimal": 148, "binary": "10010100", "hex": "0x94", "name": "ö" },
-  { "decimal": 149, "binary": "10010101", "hex": "0x95", "name": "ò" },
-  { "decimal": 150, "binary": "10010110", "hex": "0x96", "name": "û" },
-  { "decimal": 151, "binary": "10010111", "hex": "0x97", "name": "ù" },
-  { "decimal": 152, "binary": "10011000", "hex": "0x98", "name": "ÿ" },
-  { "decimal": 153, "binary": "10011001", "hex": "0x99", "name": "Ö" },
-  { "decimal": 154, "binary": "10011010", "hex": "0x9A", "name": "Ü" },
-  { "decimal": 155, "binary": "10011011", "hex": "0x9B", "name": "¢" },
-  { "decimal": 156, "binary": "10011100", "hex": "0x9C", "name": "£" },
-  { "decimal": 157, "binary": "10011101", "hex": "0x9D", "name": "¥" },
-  { "decimal": 158, "binary": "10011110", "hex": "0x9E", "name": "₧" },
-  { "decimal": 159, "binary": "10011111", "hex": "0x9F", "name": "ƒ" },
-  { "decimal": 160, "binary": "10100000", "hex": "0xA0", "name": "á" },
-  { "decimal": 161, "binary": "10100001", "hex": "0xA1", "name": "í" },
-  { "decimal": 162, "binary": "10100010", "hex": "0xA2", "name": "ó" },
-  { "decimal": 163, "binary": "10100011", "hex": "0xA3", "name": "ú" },
-  { "decimal": 164, "binary": "10100100", "hex": "0xA4", "name": "ñ" },
-  { "decimal": 165, "binary": "10100101", "hex": "0xA5", "name": "Ñ" },
-  { "decimal": 166, "binary": "10100110", "hex": "0xA6", "name": "ª" },
-  { "decimal": 167, "binary": "10100111", "hex": "0xA7", "name": "º" },
-  { "decimal": 168, "binary": "10101000", "hex": "0xA8", "name": "¿" },
-  { "decimal": 169, "binary": "10101001", "hex": "0xA9", "name": "⌐" },
-  { "decimal": 170, "binary": "10101010", "hex": "0xAA", "name": "¬" },
-  { "decimal": 171, "binary": "10101011", "hex": "0xAB", "name": "½" },
-  { "decimal": 172, "binary": "10101100", "hex": "0xAC", "name": "¼" },
-  { "decimal": 173, "binary": "10101101", "hex": "0xAD", "name": "¡" },
-  { "decimal": 174, "binary": "10101110", "hex": "0xAE", "name": "«" },
-  { "decimal": 175, "binary": "10101111", "hex": "0xAF", "name": "»" },
-  { "decimal": 176, "binary": "10110000", "hex": "0xB0", "name": "░" },
-  { "decimal": 177, "binary": "10110001", "hex": "0xB1", "name": "▒" },
-  { "decimal": 178, "binary": "10110010", "hex": "0xB2", "name": "▓" },
-  { "decimal": 179, "binary": "10110011", "hex": "0xB3", "name": "│" },
-  { "decimal": 180, "binary": "10110100", "hex": "0xB4", "name": "┤" },
-  { "decimal": 181, "binary": "10110101", "hex": "0xB5", "name": "Á" },
-  { "decimal": 182, "binary": "10110110", "hex": "0xB6", "name": "Â" },
-  { "decimal": 183, "binary": "10110111", "hex": "0xB7", "name": "À" },
-  { "decimal": 184, "binary": "10111000", "hex": "0xB8", "name": "©" },
-  { "decimal": 185, "binary": "10111001", "hex": "0xB9", "name": "╣" },
-  { "decimal": 186, "binary": "10111010", "hex": "0xBA", "name": "║" },
-  { "decimal": 187, "binary": "10111011", "hex": "0xBB", "name": "╗" },
-  { "decimal": 188, "binary": "10111100", "hex": "0xBC", "name": "╝" },
-  { "decimal": 189, "binary": "10111101", "hex": "0xBD", "name": "¢" },
-  { "decimal": 190, "binary": "10111110", "hex": "0xBE", "name": "¥" },
-  { "decimal": 191, "binary": "10111111", "hex": "0xBF", "name": "┐" },
-  { "decimal": 192, "binary": "11000000", "hex": "0xC0", "name": "└" },
-  { "decimal": 193, "binary": "11000001", "hex": "0xC1", "name": "┴" },
-  { "decimal": 194, "binary": "11000010", "hex": "0xC2", "name": "┬" },
-  { "decimal": 195, "binary": "11000011", "hex": "0xC3", "name": "├" },
-  { "decimal": 196, "binary": "11000100", "hex": "0xC4", "name": "─" },
-  { "decimal": 197, "binary": "11000101", "hex": "0xC5", "name": "┼" },
-  { "decimal": 198, "binary": "11000110", "hex": "0xC6", "name": "ã" },
-  { "decimal": 199, "binary": "11000111", "hex": "0xC7", "name": "Ã" },
-  { "decimal": 200, "binary": "11001000", "hex": "0xC8", "name": "╚" },
-  { "decimal": 201, "binary": "11001001", "hex": "0xC9", "name": "╔" },
-  { "decimal": 202, "binary": "11001010", "hex": "0xCA", "name": "╩" },
-  { "decimal": 203, "binary": "11001011", "hex": "0xCB", "name": "╦" },
-  { "decimal": 204, "binary": "11001100", "hex": "0xCC", "name": "╠" },
-  { "decimal": 205, "binary": "11001101", "hex": "0xCD", "name": "═" },
-  { "decimal": 206, "binary": "11001110", "hex": "0xCE", "name": "╬" },
-  { "decimal": 207, "binary": "11001111", "hex": "0xCF", "name": "¤" },
-  { "decimal": 208, "binary": "11010000", "hex": "0xD0", "name": "ð" },
-  { "decimal": 209, "binary": "11010001", "hex": "0xD1", "name": "Ð" },
-  { "decimal": 210, "binary": "11010010", "hex": "0xD2", "name": "Ê" },
-  { "decimal": 211, "binary": "11010011", "hex": "0xD3", "name": "Ë" },
-  { "decimal": 212, "binary": "11010100", "hex": "0xD4", "name": "È" },
-  { "decimal": 213, "binary": "11010101", "hex": "0xD5", "name": "ı" },
-  { "decimal": 214, "binary": "11010110", "hex": "0xD6", "name": "Í" },
-  { "decimal": 215, "binary": "11010111", "hex": "0xD7", "name": "Î" },
-  { "decimal": 216, "binary": "11011000", "hex": "0xD8", "name": "Ï" },
-  { "decimal": 217, "binary": "11011001", "hex": "0xD9", "name": "┘" },
-  { "decimal": 218, "binary": "11011010", "hex": "0xDA", "name": "┌" },
-  { "decimal": 219, "binary": "11011011", "hex": "0xDB", "name": "█" },
-  { "decimal": 220, "binary": "11011100", "hex": "0xDC", "name": "▄" },
-  { "decimal": 221, "binary": "11011101", "hex": "0xDD", "name": "¦" },
-  { "decimal": 222, "binary": "11011110", "hex": "0xDE", "name": "Ì" },
-  { "decimal": 223, "binary": "11011111", "hex": "0xDF", "name": "▀" },
-  { "decimal": 224, "binary": "11100000", "hex": "0xE0", "name": "Ó" },
-  { "decimal": 225, "binary": "11100001", "hex": "0xE1", "name": "ß" },
-  { "decimal": 226, "binary": "11100010", "hex": "0xE2", "name": "Ô" },
-  { "decimal": 227, "binary": "11100011", "hex": "0xE3", "name": "Ò" },
-  { "decimal": 228, "binary": "11100100", "hex": "0xE4", "name": "õ" },
-  { "decimal": 229, "binary": "11100101", "hex": "0xE5", "name": "Õ" },
-  { "decimal": 230, "binary": "11100110", "hex": "0xE6", "name": "µ" },
-  { "decimal": 231, "binary": "11100111", "hex": "0xE7", "name": "þ" },
-  { "decimal": 232, "binary": "11101000", "hex": "0xE8", "name": "Þ" },
-  { "decimal": 233, "binary": "11101001", "hex": "0xE9", "name": "Ú" },
-  { "decimal": 234, "binary": "11101010", "hex": "0xEA", "name": "Û" },
-  { "decimal": 235, "binary": "11101011", "hex": "0xEB", "name": "Ù" },
-  { "decimal": 236, "binary": "11101100", "hex": "0xEC", "name": "ý" },
-  { "decimal": 237, "binary": "11101101", "hex": "0xED", "name": "Ý" },
-  { "decimal": 238, "binary": "11101110", "hex": "0xEE", "name": "¯" },
-  { "decimal": 239, "binary": "11101111", "hex": "0xEF", "name": "´" },
-  { "decimal": 240, "binary": "11110000", "hex": "0xF0", "name": "≡" },
-  { "decimal": 241, "binary": "11110001", "hex": "0xF1", "name": "±" },
-  { "decimal": 242, "binary": "11110010", "hex": "0xF2", "name": "‗" },
-  { "decimal": 243, "binary": "11110011", "hex": "0xF3", "name": "¾" },
-  { "decimal": 244, "binary": "11110100", "hex": "0xF4", "name": "¶" },
-  { "decimal": 245, "binary": "11110101", "hex": "0xF5", "name": "§" },
-  { "decimal": 246, "binary": "11110110", "hex": "0xF6", "name": "÷" },
-  { "decimal": 247, "binary": "11110111", "hex": "0xF7", "name": "¸" },
-  { "decimal": 248, "binary": "11111000", "hex": "0xF8", "name": "°" },
-  { "decimal": 249, "binary": "11111001", "hex": "0xF9", "name": "¨" },
-  { "decimal": 250, "binary": "11111010", "hex": "0xFA", "name": "·" },
-  { "decimal": 251, "binary": "11111011", "hex": "0xFB", "name": "¹" },
-  { "decimal": 252, "binary": "11111100", "hex": "0xFC", "name": "³" },
-  { "decimal": 253, "binary": "11111101", "hex": "0xFD", "name": "²" },
-  { "decimal": 254, "binary": "11111110", "hex": "0xFE", "name": "■" },
-  { "decimal": 255, "binary": "11111111", "hex": "0xFF", "name": "nbsp" }
+  {
+    "decimal": 126,
+    "binary": "01111110",
+    "hex": "0x7E",
+    "name": "Tilde"
+  },
+  {
+    "decimal": 127,
+    "binary": "01111111",
+    "hex": "0x7F",
+    "name": "DEL"
+  },
+  {
+    "decimal": 128,
+    "binary": "10000000",
+    "hex": "0x80",
+    "name": "Ç"
+  },
+  {
+    "decimal": 129,
+    "binary": "10000001",
+    "hex": "0x81",
+    "name": "ü"
+  },
+  {
+    "decimal": 130,
+    "binary": "10000010",
+    "hex": "0x82",
+    "name": "é"
+  },
+  {
+    "decimal": 131,
+    "binary": "10000011",
+    "hex": "0x83",
+    "name": "â"
+  },
+  {
+    "decimal": 132,
+    "binary": "10000100",
+    "hex": "0x84",
+    "name": "ä"
+  },
+  {
+    "decimal": 133,
+    "binary": "10000101",
+    "hex": "0x85",
+    "name": "à"
+  },
+  {
+    "decimal": 134,
+    "binary": "10000110",
+    "hex": "0x86",
+    "name": "å"
+  },
+  {
+    "decimal": 135,
+    "binary": "10000111",
+    "hex": "0x87",
+    "name": "ç"
+  },
+  {
+    "decimal": 136,
+    "binary": "10001000",
+    "hex": "0x88",
+    "name": "ê"
+  },
+  {
+    "decimal": 137,
+    "binary": "10001001",
+    "hex": "0x89",
+    "name": "ë"
+  },
+  {
+    "decimal": 138,
+    "binary": "10001010",
+    "hex": "0x8A",
+    "name": "è"
+  },
+  {
+    "decimal": 139,
+    "binary": "10001011",
+    "hex": "0x8B",
+    "name": "ï"
+  },
+  {
+    "decimal": 140,
+    "binary": "10001100",
+    "hex": "0x8C",
+    "name": "î"
+  },
+  {
+    "decimal": 141,
+    "binary": "10001101",
+    "hex": "0x8D",
+    "name": "ì"
+  },
+  {
+    "decimal": 142,
+    "binary": "10001110",
+    "hex": "0x8E",
+    "name": "Ä"
+  },
+  {
+    "decimal": 143,
+    "binary": "10001111",
+    "hex": "0x8F",
+    "name": "Å"
+  },
+  {
+    "decimal": 144,
+    "binary": "10010000",
+    "hex": "0x90",
+    "name": "É"
+  },
+  {
+    "decimal": 145,
+    "binary": "10010001",
+    "hex": "0x91",
+    "name": "æ"
+  },
+  {
+    "decimal": 146,
+    "binary": "10010010",
+    "hex": "0x92",
+    "name": "Æ"
+  },
+  {
+    "decimal": 147,
+    "binary": "10010011",
+    "hex": "0x93",
+    "name": "ô"
+  },
+  {
+    "decimal": 148,
+    "binary": "10010100",
+    "hex": "0x94",
+    "name": "ö"
+  },
+  {
+    "decimal": 149,
+    "binary": "10010101",
+    "hex": "0x95",
+    "name": "ò"
+  },
+  {
+    "decimal": 150,
+    "binary": "10010110",
+    "hex": "0x96",
+    "name": "û"
+  },
+  {
+    "decimal": 151,
+    "binary": "10010111",
+    "hex": "0x97",
+    "name": "ù"
+  },
+  {
+    "decimal": 152,
+    "binary": "10011000",
+    "hex": "0x98",
+    "name": "ÿ"
+  },
+  {
+    "decimal": 153,
+    "binary": "10011001",
+    "hex": "0x99",
+    "name": "Ö"
+  },
+  {
+    "decimal": 154,
+    "binary": "10011010",
+    "hex": "0x9A",
+    "name": "Ü"
+  },
+  {
+    "decimal": 155,
+    "binary": "10011011",
+    "hex": "0x9B",
+    "name": "¢"
+  },
+  {
+    "decimal": 156,
+    "binary": "10011100",
+    "hex": "0x9C",
+    "name": "£"
+  },
+  {
+    "decimal": 157,
+    "binary": "10011101",
+    "hex": "0x9D",
+    "name": "¥"
+  },
+  {
+    "decimal": 158,
+    "binary": "10011110",
+    "hex": "0x9E",
+    "name": "₧"
+  },
+  {
+    "decimal": 159,
+    "binary": "10011111",
+    "hex": "0x9F",
+    "name": "ƒ"
+  },
+  {
+    "decimal": 160,
+    "binary": "10100000",
+    "hex": "0xA0",
+    "name": "á"
+  },
+  {
+    "decimal": 161,
+    "binary": "10100001",
+    "hex": "0xA1",
+    "name": "í"
+  },
+  {
+    "decimal": 162,
+    "binary": "10100010",
+    "hex": "0xA2",
+    "name": "ó"
+  },
+  {
+    "decimal": 163,
+    "binary": "10100011",
+    "hex": "0xA3",
+    "name": "ú"
+  },
+  {
+    "decimal": 164,
+    "binary": "10100100",
+    "hex": "0xA4",
+    "name": "ñ"
+  },
+  {
+    "decimal": 165,
+    "binary": "10100101",
+    "hex": "0xA5",
+    "name": "Ñ"
+  },
+  {
+    "decimal": 166,
+    "binary": "10100110",
+    "hex": "0xA6",
+    "name": "ª"
+  },
+  {
+    "decimal": 167,
+    "binary": "10100111",
+    "hex": "0xA7",
+    "name": "º"
+  },
+  {
+    "decimal": 168,
+    "binary": "10101000",
+    "hex": "0xA8",
+    "name": "¿"
+  },
+  {
+    "decimal": 169,
+    "binary": "10101001",
+    "hex": "0xA9",
+    "name": "⌐"
+  },
+  {
+    "decimal": 170,
+    "binary": "10101010",
+    "hex": "0xAA",
+    "name": "¬"
+  },
+  {
+    "decimal": 171,
+    "binary": "10101011",
+    "hex": "0xAB",
+    "name": "½"
+  },
+  {
+    "decimal": 172,
+    "binary": "10101100",
+    "hex": "0xAC",
+    "name": "¼"
+  },
+  {
+    "decimal": 173,
+    "binary": "10101101",
+    "hex": "0xAD",
+    "name": "¡"
+  },
+  {
+    "decimal": 174,
+    "binary": "10101110",
+    "hex": "0xAE",
+    "name": "«"
+  },
+  {
+    "decimal": 175,
+    "binary": "10101111",
+    "hex": "0xAF",
+    "name": "»"
+  },
+  {
+    "decimal": 176,
+    "binary": "10110000",
+    "hex": "0xB0",
+    "name": "░"
+  },
+  {
+    "decimal": 177,
+    "binary": "10110001",
+    "hex": "0xB1",
+    "name": "▒"
+  },
+  {
+    "decimal": 178,
+    "binary": "10110010",
+    "hex": "0xB2",
+    "name": "▓"
+  },
+  {
+    "decimal": 179,
+    "binary": "10110011",
+    "hex": "0xB3",
+    "name": "│"
+  },
+  {
+    "decimal": 180,
+    "binary": "10110100",
+    "hex": "0xB4",
+    "name": "┤"
+  },
+  {
+    "decimal": 181,
+    "binary": "10110101",
+    "hex": "0xB5",
+    "name": "Á"
+  },
+  {
+    "decimal": 182,
+    "binary": "10110110",
+    "hex": "0xB6",
+    "name": "Â"
+  },
+  {
+    "decimal": 183,
+    "binary": "10110111",
+    "hex": "0xB7",
+    "name": "À"
+  },
+  {
+    "decimal": 184,
+    "binary": "10111000",
+    "hex": "0xB8",
+    "name": "©"
+  },
+  {
+    "decimal": 185,
+    "binary": "10111001",
+    "hex": "0xB9",
+    "name": "╣"
+  },
+  {
+    "decimal": 186,
+    "binary": "10111010",
+    "hex": "0xBA",
+    "name": "║"
+  },
+  {
+    "decimal": 187,
+    "binary": "10111011",
+    "hex": "0xBB",
+    "name": "╗"
+  },
+  {
+    "decimal": 188,
+    "binary": "10111100",
+    "hex": "0xBC",
+    "name": "╝"
+  },
+  {
+    "decimal": 189,
+    "binary": "10111101",
+    "hex": "0xBD",
+    "name": "¢"
+  },
+  {
+    "decimal": 190,
+    "binary": "10111110",
+    "hex": "0xBE",
+    "name": "¥"
+  },
+  {
+    "decimal": 191,
+    "binary": "10111111",
+    "hex": "0xBF",
+    "name": "┐"
+  },
+  {
+    "decimal": 192,
+    "binary": "11000000",
+    "hex": "0xC0",
+    "name": "└"
+  },
+  {
+    "decimal": 193,
+    "binary": "11000001",
+    "hex": "0xC1",
+    "name": "┴"
+  },
+  {
+    "decimal": 194,
+    "binary": "11000010",
+    "hex": "0xC2",
+    "name": "┬"
+  },
+  {
+    "decimal": 195,
+    "binary": "11000011",
+    "hex": "0xC3",
+    "name": "├"
+  },
+  {
+    "decimal": 196,
+    "binary": "11000100",
+    "hex": "0xC4",
+    "name": "─"
+  },
+  {
+    "decimal": 197,
+    "binary": "11000101",
+    "hex": "0xC5",
+    "name": "┼"
+  },
+  {
+    "decimal": 198,
+    "binary": "11000110",
+    "hex": "0xC6",
+    "name": "ã"
+  },
+  {
+    "decimal": 199,
+    "binary": "11000111",
+    "hex": "0xC7",
+    "name": "Ã"
+  },
+  {
+    "decimal": 200,
+    "binary": "11001000",
+    "hex": "0xC8",
+    "name": "╚"
+  },
+  {
+    "decimal": 201,
+    "binary": "11001001",
+    "hex": "0xC9",
+    "name": "╔"
+  },
+  {
+    "decimal": 202,
+    "binary": "11001010",
+    "hex": "0xCA",
+    "name": "╩"
+  },
+  {
+    "decimal": 203,
+    "binary": "11001011",
+    "hex": "0xCB",
+    "name": "╦"
+  },
+  {
+    "decimal": 204,
+    "binary": "11001100",
+    "hex": "0xCC",
+    "name": "╠"
+  },
+  {
+    "decimal": 205,
+    "binary": "11001101",
+    "hex": "0xCD",
+    "name": "═"
+  },
+  {
+    "decimal": 206,
+    "binary": "11001110",
+    "hex": "0xCE",
+    "name": "╬"
+  },
+  {
+    "decimal": 207,
+    "binary": "11001111",
+    "hex": "0xCF",
+    "name": "¤"
+  },
+  {
+    "decimal": 208,
+    "binary": "11010000",
+    "hex": "0xD0",
+    "name": "ð"
+  },
+  {
+    "decimal": 209,
+    "binary": "11010001",
+    "hex": "0xD1",
+    "name": "Ð"
+  },
+  {
+    "decimal": 210,
+    "binary": "11010010",
+    "hex": "0xD2",
+    "name": "Ê"
+  },
+  {
+    "decimal": 211,
+    "binary": "11010011",
+    "hex": "0xD3",
+    "name": "Ë"
+  },
+  {
+    "decimal": 212,
+    "binary": "11010100",
+    "hex": "0xD4",
+    "name": "È"
+  },
+  {
+    "decimal": 213,
+    "binary": "11010101",
+    "hex": "0xD5",
+    "name": "ı"
+  },
+  {
+    "decimal": 214,
+    "binary": "11010110",
+    "hex": "0xD6",
+    "name": "Í"
+  },
+  {
+    "decimal": 215,
+    "binary": "11010111",
+    "hex": "0xD7",
+    "name": "Î"
+  },
+  {
+    "decimal": 216,
+    "binary": "11011000",
+    "hex": "0xD8",
+    "name": "Ï"
+  },
+  {
+    "decimal": 217,
+    "binary": "11011001",
+    "hex": "0xD9",
+    "name": "┘"
+  },
+  {
+    "decimal": 218,
+    "binary": "11011010",
+    "hex": "0xDA",
+    "name": "┌"
+  },
+  {
+    "decimal": 219,
+    "binary": "11011011",
+    "hex": "0xDB",
+    "name": "█"
+  },
+  {
+    "decimal": 220,
+    "binary": "11011100",
+    "hex": "0xDC",
+    "name": "▄"
+  },
+  {
+    "decimal": 221,
+    "binary": "11011101",
+    "hex": "0xDD",
+    "name": "¦"
+  },
+  {
+    "decimal": 222,
+    "binary": "11011110",
+    "hex": "0xDE",
+    "name": "Ì"
+  },
+  {
+    "decimal": 223,
+    "binary": "11011111",
+    "hex": "0xDF",
+    "name": "▀"
+  },
+  {
+    "decimal": 224,
+    "binary": "11100000",
+    "hex": "0xE0",
+    "name": "Ó"
+  },
+  {
+    "decimal": 225,
+    "binary": "11100001",
+    "hex": "0xE1",
+    "name": "ß"
+  },
+  {
+    "decimal": 226,
+    "binary": "11100010",
+    "hex": "0xE2",
+    "name": "Ô"
+  },
+  {
+    "decimal": 227,
+    "binary": "11100011",
+    "hex": "0xE3",
+    "name": "Ò"
+  },
+  {
+    "decimal": 228,
+    "binary": "11100100",
+    "hex": "0xE4",
+    "name": "õ"
+  },
+  {
+    "decimal": 229,
+    "binary": "11100101",
+    "hex": "0xE5",
+    "name": "Õ"
+  },
+  {
+    "decimal": 230,
+    "binary": "11100110",
+    "hex": "0xE6",
+    "name": "µ"
+  },
+  {
+    "decimal": 231,
+    "binary": "11100111",
+    "hex": "0xE7",
+    "name": "þ"
+  },
+  {
+    "decimal": 232,
+    "binary": "11101000",
+    "hex": "0xE8",
+    "name": "Þ"
+  },
+  {
+    "decimal": 233,
+    "binary": "11101001",
+    "hex": "0xE9",
+    "name": "Ú"
+  },
+  {
+    "decimal": 234,
+    "binary": "11101010",
+    "hex": "0xEA",
+    "name": "Û"
+  },
+  {
+    "decimal": 235,
+    "binary": "11101011",
+    "hex": "0xEB",
+    "name": "Ù"
+  },
+  {
+    "decimal": 236,
+    "binary": "11101100",
+    "hex": "0xEC",
+    "name": "ý"
+  },
+  {
+    "decimal": 237,
+    "binary": "11101101",
+    "hex": "0xED",
+    "name": "Ý"
+  },
+  {
+    "decimal": 238,
+    "binary": "11101110",
+    "hex": "0xEE",
+    "name": "¯"
+  },
+  {
+    "decimal": 239,
+    "binary": "11101111",
+    "hex": "0xEF",
+    "name": "´"
+  },
+  {
+    "decimal": 240,
+    "binary": "11110000",
+    "hex": "0xF0",
+    "name": "≡"
+  },
+  {
+    "decimal": 241,
+    "binary": "11110001",
+    "hex": "0xF1",
+    "name": "±"
+  },
+  {
+    "decimal": 242,
+    "binary": "11110010",
+    "hex": "0xF2",
+    "name": "‗"
+  },
+  {
+    "decimal": 243,
+    "binary": "11110011",
+    "hex": "0xF3",
+    "name": "¾"
+  },
+  {
+    "decimal": 244,
+    "binary": "11110100",
+    "hex": "0xF4",
+    "name": "¶"
+  },
+  {
+    "decimal": 245,
+    "binary": "11110101",
+    "hex": "0xF5",
+    "name": "§"
+  },
+  {
+    "decimal": 246,
+    "binary": "11110110",
+    "hex": "0xF6",
+    "name": "÷"
+  },
+  {
+    "decimal": 247,
+    "binary": "11110111",
+    "hex": "0xF7",
+    "name": "¸"
+  },
+  {
+    "decimal": 248,
+    "binary": "11111000",
+    "hex": "0xF8",
+    "name": "°"
+  },
+  {
+    "decimal": 249,
+    "binary": "11111001",
+    "hex": "0xF9",
+    "name": "¨"
+  },
+  {
+    "decimal": 250,
+    "binary": "11111010",
+    "hex": "0xFA",
+    "name": "·"
+  },
+  {
+    "decimal": 251,
+    "binary": "11111011",
+    "hex": "0xFB",
+    "name": "¹"
+  },
+  {
+    "decimal": 252,
+    "binary": "11111100",
+    "hex": "0xFC",
+    "name": "³"
+  },
+  {
+    "decimal": 253,
+    "binary": "11111101",
+    "hex": "0xFD",
+    "name": "²"
+  },
+  {
+    "decimal": 254,
+    "binary": "11111110",
+    "hex": "0xFE",
+    "name": "■"
+  },
+  {
+    "decimal": 255,
+    "binary": "11111111",
+    "hex": "0xFF",
+    "name": "nbsp"
+  }
 ]
